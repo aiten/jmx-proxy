@@ -1,0 +1,7 @@
+apply plugin: 'java'
+
+jar {
+	manifest {
+		from('src/main/resources/META-INF/MANIFEST.MF')
+	}
+}
